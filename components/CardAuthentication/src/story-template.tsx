@@ -103,6 +103,7 @@ export const AuthenticationCard = ({
         )}
       </header>
       <div className="denhaag-card-authentication__cta">
+        {/* @todo: Apply `denhaag-button-group` since there can be multiple buttons. */}
         <a
           className="denhaag-card-authentication__cta-link denhaag-button denhaag-button--large denhaag-button--primary-action denhaag-button--end-icon"
           href="#example-link"
@@ -127,6 +128,7 @@ export const AuthenticationCard = ({
       </div>
       {authProvider && (
         <footer className="denhaag-card-authentication__footer">
+          {/* @todo: Missing the "OR" part which is still defined. */}
           <p className="utrecht-paragraph">
             {authProvider !== 'eIDAS' && `Geen ${authProvider}? `}
             <a
