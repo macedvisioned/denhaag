@@ -99,7 +99,7 @@ The text field contains the states active, inactive, disabled, error and focus.
 
 A label is a short description of the requested input. Labels are not instructional text but they should be meaningful and clearly indicate what is expected. Labels should be:
 
-- Placed above or beside the form field
+- Placed above or beside the form field //suggestion: if placed beside the form field then on the left. In some situations label right aligned can be easy to read. Test this first with users.
 - Short and succinct (1–3 words)
 - Written in sentence case (the first word capitalized, the rest lowercase)
 
